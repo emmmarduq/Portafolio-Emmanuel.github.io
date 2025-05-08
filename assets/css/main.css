@@ -1,3 +1,5 @@
+
+
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
 @import url("fontawesome-all.min.css");
 
@@ -28,6 +30,7 @@ section, summary, time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
+
 
 body {
 	line-height: 1;
@@ -98,9 +101,10 @@ input, select, textarea {
 		}
 
 	body, input, textarea, select {
+		background-color: black;
 		font-family: 'Open Sans', sans-serif;
 		line-height: 1.85em;
-		color: #adaaaa;
+		color: #c7c7c7;
 		font-weight: 300;
 		font-size: 13pt;
 	}
@@ -124,7 +128,7 @@ input, select, textarea {
 
 	b, strong {
 		font-weight: 600;
-		color: #3e3e3e;
+		color: #ffffff;
 	}
 
 	i, em {
@@ -150,7 +154,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #3e3e3e;
+		color: #ffffff;
 		margin: 0 0 0.75em 0;
 	}
 
@@ -1894,7 +1898,8 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		background: #fff;
+		color: #eee;
+		background: #3a3a3a;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		text-align: center;
 		padding: 2em;
@@ -1984,21 +1989,21 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			background-image: none;
-			background-color: #fff;
+			background-color: #000000;
 		}
 
 		.wrapper.style2 {
-			background-color: #fafafa;
+			background-color: #000000;
 			text-shadow: 1px 1px 0px #fff;
 		}
 
 		.wrapper.style3 {
-			background-color: #f4f4f4;
+			background-color: #000000;
 			text-shadow: 1px 1px 0px #fff;
 		}
 
 		.wrapper.style4 {
-			background-color: #303030;
+			background-color: #000000;
 			color: #999;
 			text-shadow: -1px -1px 0px #181818;
 		}
